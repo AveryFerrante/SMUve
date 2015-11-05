@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/mainBackground">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_email_tip"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/login_margin"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_account_email"
+        android:layout_marginBottom="@dimen/login_margin"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_password_tip"
+        android:typeface="monospace"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_account_password"
+        android:layout_marginBottom="@dimen/login_margin"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_password_tip"
+        android:typeface="monospace"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_account_password_confirm"
+        android:layout_marginBottom="@dimen/login_margin"/>
+
+
+
+
+
+</LinearLayout>
+

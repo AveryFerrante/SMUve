@@ -1,5 +1,6 @@
 package com.example.avery.smuve;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -33,6 +34,13 @@ public class LoginActivity extends AppCompatActivity {
                 //CHECK IF EMAIL IS VALID INPUT
             }
         });
+    }
+
+
+    //User pressed the button to create a new account
+    public void createAccount(View view) {
+        Intent intent = new Intent(this, CreateAccountActivity.class);
+        startActivity(intent);
     }
 
 

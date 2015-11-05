@@ -5,4 +5,8 @@
     <string name="login_password_tip">Password:</string>
     <string name="login_button">Login</string>
     <string name="create_account_button">Create Account</string>
+    <string name="title_activity_create_account">CreateAccountActivity</string>
+    <string name="first_name_tip">First Name:</string>
+    <string name="last_name_tip">Last Name:</string>
+    <string name="confirm_password_tip">Confirm Password:</string>
 </resources>

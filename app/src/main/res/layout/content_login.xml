@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_email_tip"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="@dimen/login_margin"
         android:typeface="monospace"
         android:textStyle="bold"/>
     <EditText
@@ -26,14 +26,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_password_tip"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="@dimen/login_margin"
         android:typeface="monospace"
         android:textStyle="bold"/>
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:id="@+id/password_input"/>
+        android:id="@+id/password_input"
+        android:layout_marginBottom="@dimen/login_margin"/>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -60,7 +61,8 @@
             android:typeface="monospace"
             android:layout_alignParentRight="true"
             android:padding="@dimen/button_padding"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:onClick="createAccount"/>
 
     </RelativeLayout>
 
