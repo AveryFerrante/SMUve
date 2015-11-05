@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SMUve</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_email_tip">Email:</string>
+    <string name="login_password_tip">Password:</string>
+    <string name="login_button">Login</string>
+    <string name="create_account_button">Create Account</string>
+</resources>
